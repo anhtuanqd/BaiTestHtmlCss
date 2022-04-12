@@ -37,7 +37,7 @@
     padding-right: 36px;
   }
   .header .menu-icon:hover + .menu {
-    display: block;
+    display: inline-table;
   }
   .header .menu {
     display: none;
@@ -73,7 +73,8 @@
     width: 50%;
   }
   .ourWork .contentMain1 .content1 img {
-    width: 340px;
+    width: 100%;
+    height: auto;
   }
   .learnMoreMain .learnMore {
     display: block !important;
