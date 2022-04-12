@@ -1,0 +1,193 @@
+@media screen and (max-width: 640px) {
+  .slideMain .slide p:first-child {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding-top: 252px;
+  }
+  .slideMain .slide p:nth-child(2) {
+    padding: 40px 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 959px) {
+  .header .menu-icon {
+    display: block !important;
+  }
+  .header .menu-icon i {
+    font-size: 36px;
+    line-height: 80px;
+    padding-right: 36px;
+  }
+  .header .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .header .menu-icon {
+    display: block !important;
+  }
+  .header .menu-icon i {
+    font-size: 36px;
+    line-height: 80px;
+    padding-right: 36px;
+  }
+  .header .menu-icon:hover + .menu {
+    display: block;
+  }
+  .header .menu {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 81px;
+    z-index: 9;
+    width: 100%;
+    background-color: white;
+  }
+  .header .menu ul {
+    display: block !important;
+  }
+  .header .menu ul li {
+    border-top: 1px solid black;
+    width: 100%;
+    padding-left: 24px;
+  }
+  .header .menu ul li:last-child {
+    border-bottom: 1px solid black;
+  }
+  .ourServiceMain .ourService .contentMain {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .ourServiceMain .ourService .contentMain .content {
+    width: 90%;
+    margin-bottom: 12px;
+  }
+  .ourWork .contentMain1 .content1 {
+    width: 50%;
+  }
+  .ourWork .contentMain1 .content1 img {
+    width: 340px;
+  }
+  .learnMoreMain .learnMore {
+    display: block !important;
+  }
+  .learnMoreMain .learnMore p {
+    text-align: center;
+    padding: 12px;
+  }
+  .teamMember {
+    padding: 0;
+  }
+  .teamMember .contentMain {
+    flex-wrap: wrap;
+  }
+  .teamMember .contentMain .content {
+    width: 50%;
+  }
+  .ourRecentMain .ourRecent .contentMain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .ourRecentMain .ourRecent .contentMain .ourSource {
+    background-color: white;
+    width: 100%;
+  }
+  .ourRecentMain .ourRecent .contentMain .news {
+    width: 100%;
+    background-color: white;
+  }
+  .ourRecentMain .ourRecent .contentMain .news .subject {
+    padding: 15px 12px;
+    font-weight: bold;
+  }
+  .ourRecentMain .ourRecent .contentMain .news .content .inf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 5px;
+    flex-wrap: wrap;
+  }
+  .ourRecentMain .ourRecent .contentMain .news .content .inf img {
+    height: 65px;
+    object-fit: cover;
+    width: 25%;
+  }
+  .contactUs {
+    padding: 0;
+  }
+  .contactUs .contentMain {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contactUs .contentMain .contentForm {
+    width: 90%;
+  }
+  .contactUs .contentMain .contentForm form {
+    width: 100%;
+  }
+  .contactUs .contentMain .contentContact {
+    width: 100%;
+    padding-left: 24px;
+  }
+  .contactUs .contentMain .contentContact .contact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    height: 20%;
+  }
+  .contactUs .contentMain .contentContact .contact h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .connectUsMain .connectUs .contentMain {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .connectUsMain .connectUs .contentMain .content {
+    text-align: center;
+    width: 50%;
+  }
+  .connectUsMain .connectUs .contentMain .content div i {
+    font-size: 72px;
+    color: #F9CE06;
+  }
+  .connectUsMain .connectUs .contentMain .content p {
+    color: white;
+    padding: 20px 0;
+  }
+  .connectUsMain .connectUs .contentMain .content span {
+    color: white;
+  }
+  .connectUsMain .connectUs .title {
+    padding: 90px 0;
+  }
+  .connectUsMain .connectUs .contentMain .content {
+    padding-bottom: 12px;
+  }
+  .contactMain .contact {
+    flex-wrap: wrap;
+  }
+  .contactMain .contact .contentContact {
+    width: 100%;
+  }
+  .contactMain .contact .contentLinkMain {
+    width: 100%;
+  }
+  .contactMain .contact .contentLinkMain .contentLink ul li {
+    width: 50%;
+  }
+  .contactMain {
+    padding: 0 12px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

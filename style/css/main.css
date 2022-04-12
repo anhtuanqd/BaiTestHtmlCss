@@ -1,0 +1,816 @@
+@font-face {
+  font-family: anhtuan;
+  src: url(../font/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: anhtuan;
+  overflow-x: hidden;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+header .header {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  height: 81px;
+}
+
+header .header .logo {
+  position: relative;
+}
+
+header .header .logo img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header .header .menu-icon {
+  display: none;
+}
+
+header .header .menu {
+  padding-right: 20px;
+}
+
+header .header .menu .menu-icon {
+  display: none;
+}
+
+header .header .menu ul {
+  display: flex;
+  height: 100%;
+}
+
+header .header .menu ul li {
+  list-style: none;
+}
+
+header .header .menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  height: 100%;
+  padding: 0 14px;
+  line-height: 81px;
+}
+
+header .header .menu ul li:hover {
+  background-color: whitesmoke;
+}
+
+.slideMain {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slideMain .slide {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideMain .slide p:first-child {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 20px 0;
+  padding-top: 252px;
+  text-align: center;
+}
+
+.slideMain .slide p:nth-child(2) {
+  padding: 40px 0;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.slideMain .slide .button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slideMain .slide .button button {
+  width: 136px;
+  height: 34px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.slideMain .slide .button button:first-child {
+  border: 1px solid white;
+  background-color: transparent;
+  margin-right: 14px;
+}
+
+.slideMain .slide .button button:nth-child(2) {
+  border: 1px solid #f9bf34;
+  background-color: #f9bf34;
+}
+
+.slideMain .slide .navigateSlide {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.slideMain .slide .navigateSlide div {
+  border-radius: 50%;
+  background-color: white;
+  height: 13px;
+  width: 13px;
+  margin: 12px;
+}
+
+.slideMain .slide .navigateSlide div:nth-child(2) {
+  background-color: yellow;
+}
+
+.slideMain .slide .prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #CDCCCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slideMain .slide .prev i {
+  color: black;
+  font-size: 30px;
+}
+
+.slideMain .slide .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #CDCCCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slideMain .slide .next i {
+  color: black;
+  font-size: 30px;
+}
+
+.ourServiceMain {
+  background-color: whitesmoke;
+}
+
+.ourServiceMain .ourService {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-bottom: 60px;
+}
+
+.ourServiceMain .ourService .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+.ourServiceMain .ourService .title p {
+  margin: 14px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.ourServiceMain .ourService .title div {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.ourServiceMain .ourService .contentMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourServiceMain .ourService .contentMain .content {
+  width: 30%;
+  text-align: center;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.ourServiceMain .ourService .contentMain .content .icon {
+  padding: 30px 0;
+  font-size: 40px;
+  color: #f9ce06;
+}
+
+.ourServiceMain .ourService .contentMain .content .subject p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.ourServiceMain .ourService .contentMain .content .inf p {
+  font-size: 18px;
+  text-align: center;
+  padding: 14px 24px;
+  margin: 20px 0;
+  color: #818181;
+}
+
+.ourWork {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-bottom: 60px;
+}
+
+.ourWork .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+.ourWork .title p {
+  margin: 14px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.ourWork .title div {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.ourWork .contentMain1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ourWork .contentMain1 .content1 {
+  width: 32%;
+  padding-bottom: 32px;
+}
+
+.ourWork .contentMain1 .content1 img {
+  width: 340px;
+}
+
+.ourWork .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ourWork .button button {
+  border: 1px solid #2b2b2b;
+  background-color: transparent;
+  color: #2b2b2b;
+  width: 136px;
+  height: 34px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.clientSayMain {
+  padding-bottom: 60px;
+  background-image: url(../images/anh7.jpg);
+  height: 100%;
+}
+
+.clientSayMain .clientSay {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+
+.clientSayMain .clientSay i {
+  color: #F9CE06;
+  font-size: 50px;
+}
+
+.clientSayMain .clientSay .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: bold;
+  color: white;
+}
+
+.clientSayMain .clientSay .title p {
+  margin: 14px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.clientSayMain .clientSay .title div {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.clientSayMain .clientSay .title .title_square {
+  background-color: white;
+}
+
+.clientSayMain .clientSay .inf {
+  margin: 0 29%;
+  line-height: 19px;
+  padding-bottom: 24px;
+}
+
+.clientSayMain .clientSay .nameTag {
+  padding-bottom: 100px;
+}
+
+.clientSayMain .learnMoreMain {
+  background-color: #F9CE06;
+  height: 100px;
+  margin-bottom: -60px;
+}
+
+.clientSayMain .learnMoreMain .learnMore {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.clientSayMain .learnMoreMain .learnMore .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientSayMain .learnMoreMain .learnMore .button button {
+  border: 1px solid #2b2b2b;
+  background-color: transparent;
+  color: #2b2b2b;
+  width: 136px;
+  height: 34px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.teamMember {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-bottom: 60px;
+}
+
+.teamMember .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+.teamMember .title p {
+  margin: 14px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.teamMember .title div {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.teamMember .contentMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teamMember .contentMain .content {
+  width: 25%;
+  box-sizing: border-box;
+  border: 12px solid transparent;
+}
+
+.teamMember .contentMain .content img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.teamMember .contentMain .content p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 0;
+}
+
+.teamMember .contentMain .content span {
+  color: #999;
+}
+
+.ourRecentMain {
+  background-color: whitesmoke;
+}
+
+.ourRecentMain .ourRecent {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-bottom: 60px;
+}
+
+.ourRecentMain .ourRecent .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+.ourRecentMain .ourRecent .title p {
+  margin: 14px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.ourRecentMain .ourRecent .title div {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.ourRecentMain .ourRecent .contentMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourRecentMain .ourRecent .contentMain .ourSource {
+  background-color: white;
+  width: 67%;
+}
+
+.ourRecentMain .ourRecent .contentMain .ourSource h3 {
+  font-weight: bold;
+  padding: 14px 14px;
+}
+
+.ourRecentMain .ourRecent .contentMain .ourSource p {
+  padding: 9px 14px;
+  line-height: 21px;
+}
+
+.ourRecentMain .ourRecent .contentMain .ourSource img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ourRecentMain .ourRecent .contentMain .news {
+  width: 30%;
+  background-color: white;
+}
+
+.ourRecentMain .ourRecent .contentMain .news .subject {
+  padding: 15px 12px;
+  font-weight: bold;
+}
+
+.ourRecentMain .ourRecent .contentMain .news .content .inf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 5px;
+}
+
+.ourRecentMain .ourRecent .contentMain .news .content .inf img {
+  height: 65px;
+  object-fit: cover;
+  width: 25%;
+}
+
+.ourRecentMain .ourRecent .contentMain .news .content .inf div {
+  width: 70%;
+}
+
+.ourRecentMain .ourRecent .contentMain .news .content .inf div p {
+  margin-left: 15px;
+  line-height: 18px;
+  color: #2b2b2b;
+}
+
+.contactUs {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-bottom: 60px;
+}
+
+.contactUs .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+.contactUs .title p {
+  margin: 14px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.contactUs .title div {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.contactUs .contentMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactUs .contentMain .contentForm {
+  width: 60%;
+}
+
+.contactUs .contentMain .contentForm form {
+  width: 100%;
+}
+
+.contactUs .contentMain .contentForm form input {
+  width: 100%;
+  padding: 15px;
+  height: 20px;
+  margin-bottom: 1.875rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  box-shadow: inset 0 1px 2px transparent;
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 1rem;
+}
+
+.contactUs .contentMain .contentForm form #message {
+  height: 64px;
+}
+
+.contactUs .contentMain .contentForm form #submit {
+  width: 160px;
+  height: 48px;
+  background-color: #F9CE06;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactUs .contentMain .contentContact {
+  width: 30%;
+}
+
+.contactUs .contentMain .contentContact .contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  height: 20%;
+}
+
+.contactUs .contentMain .contentContact .contact h3 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.connectUsMain {
+  background-image: url(../images/footer.jpg);
+  height: 600px;
+  position: relative;
+}
+
+.connectUsMain .connectUs {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-bottom: 60px;
+}
+
+.connectUsMain .connectUs .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: bold;
+  padding: 115px 0;
+}
+
+.connectUsMain .connectUs .title p {
+  margin: 14px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.connectUsMain .connectUs .title div {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.connectUsMain .connectUs .title p {
+  color: white;
+  font-size: 24px;
+}
+
+.connectUsMain .connectUs .title .title_tab {
+  background-color: white;
+}
+
+.connectUsMain .connectUs .contentMain {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.connectUsMain .connectUs .contentMain .content {
+  text-align: center;
+  width: 25%;
+}
+
+.connectUsMain .connectUs .contentMain .content div i {
+  font-size: 72px;
+  color: #F9CE06;
+}
+
+.connectUsMain .connectUs .contentMain .content p {
+  color: white;
+  padding: 20px 0;
+}
+
+.connectUsMain .connectUs .contentMain .content span {
+  color: white;
+}
+
+.contactMain {
+  background-color: black;
+}
+
+.contactMain .contact {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding: 36px 0;
+  color: white;
+}
+
+.contactMain .contact .contentContact {
+  width: 35%;
+}
+
+.contactMain .contact .contentContact .content h3 {
+  font-weight: 600;
+  padding: 24px 0;
+}
+
+.contactMain .contact .contentContact .content h4 {
+  font-weight: 600;
+}
+
+.contactMain .contact .contentContact .content p {
+  font-size: 14px;
+  padding: 8px 0 16px 0;
+  line-height: 16px;
+}
+
+.contactMain .contact .contentContact .content i {
+  padding-right: 2px;
+  color: #F9CE06;
+}
+
+.contactMain .contact .contentContact .content .phone {
+  padding: 2px;
+}
+
+.contactMain .contact .contentLinkMain {
+  width: 60%;
+}
+
+.contactMain .contact .contentLinkMain h3 {
+  font-weight: 600;
+  padding: 24px 0;
+}
+
+.contactMain .contact .contentLinkMain .contentLink ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactMain .contact .contentLinkMain .contentLink ul li {
+  width: 33%;
+  list-style: none;
+  padding-bottom: 12px;
+}
+
+.contactMain .contact .contentLinkMain .contentLink ul li a {
+  text-decoration: none;
+  display: flex;
+  color: white;
+}
+
+.contactMain .contact .contentLinkMain .contentLink ul li a i {
+  color: #F9CE06;
+  padding-right: 6px;
+}
+
+.contactMain .contact .contentLinkMain .contentLink ul li a i p {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

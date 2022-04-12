@@ -1,0 +1,210 @@
+//Mobie <= 640px 
+@media screen and (max-width: 640px) {
+    .slideMain {
+        .slide {
+            p:first-child {
+                text-transform: uppercase;
+                font-size: 36px;
+                font-weight: 600;
+                margin: 20px 0;
+                padding-top: 252px;
+            }
+    
+            p:nth-child(2) {
+                padding: 40px 0;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+    
+}
+//Tablet > 640px và < 960px 
+@media screen and (min-width: 641px ) and (max-width: 959px) {
+    .header {
+        .menu-icon {
+            display: block!important;
+            i {
+                font-size: 36px;
+                line-height: 80px;
+                padding-right: 36px;
+            }
+        }
+        .menu {
+            display: none;
+        }
+    }
+}
+//Tablet and mobie
+@media screen and (max-width: 959px) {
+    .header {
+        .menu-icon {
+            display: block!important;
+            i {
+                font-size: 36px;
+                line-height: 80px;
+                padding-right: 36px;
+            }
+        }
+        .menu-icon:hover + .menu {
+            display: block;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            top: 81px;
+            z-index: 9;
+            width: 100%;
+            background-color: white;
+            ul {
+                display: block!important;
+                li {
+                    border-top: 1px solid black;
+                    width: 100%;
+                    padding-left: 24px;
+                }
+                li:last-child {
+                    border-bottom: 1px solid black;
+                    
+                }
+            }
+        }
+    }
+    .ourServiceMain {
+        .ourService {
+            
+            .contentMain {
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                .content {
+                    width: 90%;
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+    .ourWork {   
+        .contentMain1 {
+            .content1 {
+                width: 50%;
+                img {
+                    width: 340px;
+                }
+            }
+        }
+    }
+    .learnMoreMain {
+        .learnMore {
+            display: block!important;
+            p {
+                text-align: center;
+                padding: 12px;
+            }
+        }
+    }
+    .teamMember {
+        padding: 0;
+        .contentMain {
+            flex-wrap: wrap;
+            .content {
+                width: 50%;
+            }
+        }
+    }
+    .ourRecentMain {
+        .ourRecent {
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .ourSource {
+                    background-color: white;
+                    width: 100%;
+                }
+                .news {
+                    width: 100%;
+                    background-color: white;
+    
+                    .subject {
+                        padding: 15px 12px;
+                        font-weight: bold;
+                    }
+    
+                    .content {
+                        .inf {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 9px 5px;
+                            flex-wrap: wrap;
+                            img {
+                                height: 65px;
+                                object-fit: cover;
+                                width: 25%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+    .contactUs {
+        padding: 0;
+        .contentMain {
+            flex-wrap: wrap;
+            justify-content: center;
+            .contentForm {
+                width: 90%;
+                form {
+                    width: 100%;
+                }
+            }
+            .contentContact {
+                width: 100%;
+                padding-left: 24px;
+                .contact {
+                    display: flex;
+                    flex-direction: column;
+                    padding-bottom: 10px;
+                    height: 20%;
+                    h3 {
+                        font-weight: bold;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .connectUsMain {
+        .connectUs {
+            .contentMain {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                flex-wrap: wrap;
+                .content {
+                    text-align: center;
+                    width: 50%;
+                    padding-bottom: 24px;
+                    div {
+                        i {
+                            font-size: 72px;
+                            color: #F9CE06;
+                        }
+                    }
+                    p {
+                        color: white;
+                        padding: 20px 0;
+                    }
+                    span {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
